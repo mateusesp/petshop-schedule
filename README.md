@@ -15,6 +15,3 @@ E, por fim, rode o projeto:
 ```
   npm start
 ```
-
-
-Pronto! Quaisquer dúvidas, críticas ou comentários estou à disposição!
