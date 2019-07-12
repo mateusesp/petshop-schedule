@@ -1,4 +1,4 @@
-# Agenda-Petshop
+# Petshop-Schedule
 
 Esse é o repositório inicial para o curso Iniciando com GraphQL disponível na [Alura](https://cursos.alura.com.br).
 
