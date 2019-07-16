@@ -22,9 +22,10 @@ const resolvers = {
         cliente: (root, { id }) => Clientes.buscaPorId(id)
     },
     Mutation: {
-        adicionarCliente: (root, params) => (
-            Clientes.adiciona(params)
-        )
+        adicionarCliente: (root, params) => 
+            Clientes.adiciona(params),
+        atualizarCliente: (root, params) => 
+            Clientes.atualiza(params)
     }
 }
 const servidor = new GraphQLServer({
