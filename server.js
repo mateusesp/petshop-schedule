@@ -25,7 +25,9 @@ const resolvers = {
         adicionarCliente: (root, params) => 
             Clientes.adiciona(params),
         atualizarCliente: (root, params) => 
-            Clientes.atualiza(params)
+            Clientes.atualiza(params),
+        deletarCliente: (root, { id }) => 
+            Clientes.deleta(id)
     }
 }
 const servidor = new GraphQLServer({
